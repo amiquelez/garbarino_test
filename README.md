@@ -1,5 +1,13 @@
 # Garbarino Test App
 
-Installation
+Usage:
+```
+$ Git clone repo_url
 
-$ npm install 
+$ cd garbarino_test
+
+$ npm start
+
+```
+
+Go to http://localhost:3000/ and test the app!
