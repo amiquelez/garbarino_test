@@ -1,0 +1,33 @@
+header{
+	margin-bottom: 50px;
+	background: #D1030F;
+	height: 80px;
+	padding: 10px;
+}
+header nav{
+	background: #D1030F !important;
+}
+header a{
+	color: #ffffff;
+	font-weight: bold;
+}
+header a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.thumbnail{
+	border: 1px solid grey;
+	text-align: center;
+	padding: 15px;
+	min-height: 400px;
+	margin-bottom: 18px;
+}
+.thumbnail img{
+	max-height: 150px;
+}
+.price, .list_price{
+	font-weight: bold;
+	float: left;
+	width: 100%;
+}

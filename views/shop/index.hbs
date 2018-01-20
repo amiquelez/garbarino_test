@@ -1,0 +1,20 @@
+{{# each products }}
+<div class="row">
+	{{# each this }}
+	<div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+			<img src="{{ this.imageSrc }}" />
+			<div class="caption">
+				<h3>{{ this.name }}</h3>
+				<p class="brand">{{ this.brand }}</p>
+				<p class="brand">Category: {{ this.category_id }}</p>
+				<div class="clearfix">
+					<div class="price pull-left">Price: ${{ this.price }}</div>
+					<div class="list_price pull-left">List price: ${{ this.list_price }}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{{/each}}
+</div>
+{{/each}}
